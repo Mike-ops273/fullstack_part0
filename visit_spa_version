@@ -1,0 +1,9 @@
+title: user visits SPA version page 
+note left of user: user enters url https://studies.cs.helsinki.fi/exampleapp/spa
+user->server: get request 
+note right of server: server instructs browser to get more files
+user->server: get main.css 
+user->server: get spa.js
+user->server: get data.json 
+user->server: get favicon.ico 
+
