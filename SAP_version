@@ -1,0 +1,8 @@
+
+title User creates note SAP version 
+note left of user: user types note and hits button 
+note left of user: event handler evoked: prevent default
+note left of user: event handler creates new note to be sent to the server
+user->server: post request submitted to server
+note right of server: server parses data (JSON)
+server->user: response 201 
