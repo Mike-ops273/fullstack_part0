@@ -1,0 +1,17 @@
+title User Creates new note to server
+
+note left of User: user types new note
+note left of User: user clicks submit 
+user->server: user data sent to server
+server->user: url redirect
+user->server: new get request
+note left of user: browser reloads notes page
+user->server: request stylesheet 
+server->user: return data
+user->server: request js code
+server->user: return data
+user->server: request raw json data
+server->user: return data
+note right of server: server processes post request
+note right of server: server creates new note object and adds it to the notes arrey
+server->user: displayes the note to the user
