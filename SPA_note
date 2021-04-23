@@ -1,5 +1,5 @@
 
-title User creates note SAP version 
+title User creates note SPA version 
 note left of user: user types note and hits button 
 note left of user: event handler evoked: prevent default
 note left of user: event handler creates new note to be sent to the server
